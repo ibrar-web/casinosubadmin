@@ -63,17 +63,18 @@
         var uname = '<?php echo $name; ?>';
         console.log('asdasdasdasdasd');
     </script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap-progressbar.min.js"></script>
-    {{-- <script src="js/custom.min.js"></script> --}}
-    <script src="js/angular-1.7.9/angular.min.js"></script>
-    <script src="js/angular-1.7.9/angular-route.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap-progressbar.min.js"></script>
+    {{-- <script src="./js/custom.min.js"></script> --}}
+    <script src="./js/angular-1.7.9/angular.min.js"></script>
+    <script src="./js/angular-1.7.9/angular-route.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+
     <script src="<?= asset('Subadminjs/routes.js') ?>"></script>
     <script src="<?= asset('Subadminjs/VendorHome.js') ?>"></script>
     <script src="<?= asset('Subadminjs/TransctionHistory.js') ?>"></script>
