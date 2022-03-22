@@ -20,8 +20,7 @@
     <link href="css/topbar.css" rel="stylesheet">
     <link rel="stylesheet" href="css/vendor/vendorhometable.css">
     <link rel="stylesheet" href="css/vendor/responsiveview.css">
-
-    <link rel="stylesheet" href="css/admin/modal.css">
+    <link rel="stylesheet" href="./css/vendor/modal.css">
 
     <!-- for maps -->
     <style>
