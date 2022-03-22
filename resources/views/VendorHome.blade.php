@@ -57,7 +57,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script> -->
-    <script src="./js/vendor/main.js"></script>
+    <!-- <script src="./js/vendor/main.js"></script>
     <script src="./Vendorjs/routes.js"></script>
     <script src="./Vendorjs/VendorHome.js"></script>
     <script src="./Vendorjs/TransctionHistory.js"></script>
@@ -67,7 +67,7 @@
     <script src="./Vendorjs/HowToDownload.js"></script>
     <script src="./Vendorjs/AccountDisputes.js"></script>
     <script src="./Vendorjs/SendSmsLink.js"></script>
-    <script src="./Vendorjs/testview.js"></script>
+    <script src="./Vendorjs/testview.js"></script> -->
 </body>
 
 </html>
