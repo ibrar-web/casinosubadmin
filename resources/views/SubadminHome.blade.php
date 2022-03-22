@@ -61,6 +61,7 @@
     <script>
         var global_sequence = 0;
         var uname = '<?php echo $name; ?>';
+        console.log('asdasdasdasdasd');
     </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
