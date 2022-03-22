@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <title>Latitude </title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -65,7 +66,6 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/bootstrap-progressbar.min.js"></script>
-    {{-- <script src="./js/custom.min.js"></script> --}}
     <script src="./js/angular-1.7.9/angular.min.js"></script>
     <script src="./js/angular-1.7.9/angular-route.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
