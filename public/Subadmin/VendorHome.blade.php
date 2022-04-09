@@ -509,17 +509,17 @@
 </div>
 <div class="modal fade" id="exampleModalbunus" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-        <div class="modal-content modal-content6">
+        <div class="modal-content" style="height:220px">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Update bounceback</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body modal-body6">
+            <div class="modal-body modal-body4">
                 <div class="inputs">
+                    <label for="password">Add Bounceback</label>
                     <div>
-                        <label for="password">Add Bounceback</label>
                         <input type="text" id="password" placeholder="Add Credit Detail" ng-model="register.balance">
                     </div>
                 </div>
