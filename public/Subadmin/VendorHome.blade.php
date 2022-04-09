@@ -440,10 +440,10 @@
                     <div>
                         <input type="number" placeholder="Add User Balance" ng-model="register.balance">
                     </div>
-                    <div class="input-wrapper checkbox">
+                    <!-- <div class="input-wrapper checkbox">
                         <label for="deposit-amount">Bonus</label>
                         <input type="checkbox" ng-model="bounce" style="height:10px ;width:10px;" />
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="modal-footer">
