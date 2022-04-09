@@ -457,7 +457,7 @@
 
 <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-        <div class="modal-content modal-content6" style="height:220px">
+        <div class="modal-content" style="height:220px">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Remove Vendor Credit</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -466,8 +466,11 @@
             </div>
             <div class="modal-body modal-body4">
                 <div class="inputs">
+                    <span style="color: green;">User:<%register.name%></span>
                     <div>
-                        <label for="password"><%register.name%></label>
+                        <label for="name">Amount</label>
+                    </div>
+                    <div>
                         <input type="text" id="password" placeholder="Remove Credit" ng-model="register.balance">
                     </div>
                 </div>
@@ -482,14 +485,14 @@
 </div>
 <div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-        <div class="modal-content modal-content6" style="height:220px">
+        <div class="modal-content" style="height:220px">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Clear Account Credit</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body modal-body6">
+            <div class="modal-body modal-body4">
                 <div class="inputs">
                     <div>
                         Name:<label for="password"><%register.name%></label>
