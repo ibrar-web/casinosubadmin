@@ -403,7 +403,7 @@
 
 <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-        <div class="modal-content modal-content6">
+        <!-- <div class="modal-content modal-content6">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Add Vendor Credit</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -423,20 +423,48 @@
                 <button type="button" class="btn btn-primary" data-dismiss="modal" ng-click="registervendro()">Add
                     Credit</button>
             </div>
+        </div> -->
+        <div class="modal-content" style="height:220px">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add Credit</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body modal-body4">
+                <div class="inputs">
+                    <span style="color: green;font-size:16px">User:<%register.name%></span>
+                    <div>
+                        <label for="name">Add <%register.type%></label>
+                    </div>
+                    <div>
+                        <input type="number" placeholder="Add User Balance" ng-model="register.balance">
+                    </div>
+                    <div class="input-wrapper checkbox">
+                        <label for="deposit-amount">Bonus</label>
+                        <input type="checkbox" ng-model="bounce" style="height:10px ;width:10px;" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" ng-click="registervendro()">Add
+                    <%register.type%></button>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-        <div class="modal-content modal-content6">
+        <div class="modal-content modal-content6" style="height:220px">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Remove Vendor Credit</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body modal-body6">
+            <div class="modal-body modal-body4">
                 <div class="inputs">
                     <div>
                         <label for="password"><%register.name%></label>
@@ -454,7 +482,7 @@
 </div>
 <div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-        <div class="modal-content modal-content6">
+        <div class="modal-content modal-content6" style="height:220px">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Clear Account Credit</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -465,7 +493,6 @@
                 <div class="inputs">
                     <div>
                         Name:<label for="password"><%register.name%></label>
-
                     </div>
                 </div>
             </div>
