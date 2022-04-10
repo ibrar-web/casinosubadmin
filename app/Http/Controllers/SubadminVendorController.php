@@ -224,6 +224,7 @@ class SubadminVendorController extends Controller
                     'frombalance' => $reward, 'tobalance' =>  0, 'created_at' => now(), 'updated_at' => now()
                 ]);
                 $message['done'] = 'User Account Cleared';
+                return response($message['done']);
                 break;
             case 'bonus':
                 DB::table('users')->where('id', $sequence)->update(
