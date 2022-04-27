@@ -84,6 +84,7 @@ class SubadminVendorController extends Controller
                     $table->string('description');
                     $table->string('frombalance');
                     $table->string('tobalance');
+                    $table->string('color')->default(4);
                     $table->timestamps();
                 });
                 //for vendor to user deposit redeem profit loss
